@@ -1,0 +1,72 @@
+/* headin font */
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Sans:wght@600&family=Pacifico&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,600&family=Roboto:ital,wght@0,300;0,400;1,900&family=Ysabeau:ital,wght@0,100;0,200;0,300;0,400;1,200&family=Zen+Dots&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e8e6e1;
+}
+
+/* remove down arrow from input with number type */
+
+input[type="number"] {
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+.main{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main h1{
+font-family: 'Pacifico', cursive;
+font-size: 60px;
+margin: 30px;
+}
+
+.flex input{
+    display: flex;
+    font-weight: 500;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: #e8e6e1;
+    margin: 40px;
+    border: 2px solid gray;
+    color: #454544;
+}
+
+.container{
+    border: 2px solid gray;
+    width: 350px;
+    min-height: 50vh;
+    margin: auto;
+}
+.btn{
+    width: 90px;
+    height: 50px;
+    background-color: #e8e6e1;
+    margin:auto auto 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.btn:hover
+{
+    background-color: #dad9d7;
+}
